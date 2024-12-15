@@ -8,7 +8,7 @@ I've been working on a few projects lately. Here are some of them:
 
 ## LLM Stuff
 
-I'm working on a mini-curriculum for LLM security, looking at leveraging tools such as [foolbox](https://github.com/bethgelab/foolbox), [cleverhans](https://github.com/cleverhans-lab/cleverhans), and [adversarial-robustness-toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) to explore the security properties of LLMs. Also some manual stuff with data poisoning, evasion, and membership inference attacks. It's a WIP at the moment.
+I'm working on a mini-curriculum for LLM security, looking at leveraging tools such as [foolbox](https://github.com/bethgelab/foolbox), [cleverhans](https://github.com/cleverhans-lab/cleverhans), [Garak](https://github.com/NVIDIA/garak), and [adversarial-robustness-toolbox](https://github.com/Trusted-AI/adversarial-robustness-toolbox) to explore the security properties of LLMs. Also some manual stuff with data poisoning, evasion, and membership inference attacks. It's a WIP at the moment.
 
 
 [OsGuard](https://github.com/1337kiwi/osguard)
