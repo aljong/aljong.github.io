@@ -18,8 +18,8 @@ jobs:
     
     - name: Update submodules
       run: |
-        git submodule update --init --recursive
-        git submodule update --recursive --remote
+        git submodule update --init --recursive --force
+        git submodule update --recursive --remote --force
     
     - name: Commit and push changes
       run: |
