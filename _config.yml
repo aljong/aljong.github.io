@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "Kiwi's Perch"
+title: "🥝's Perch"
 subtitle: ''
 description: "Welcome to Kiwi's Perch! Research, Education, Writeups, and cool shit :3"
 keywords:
@@ -46,15 +46,17 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
-  line_number: true
+  enable: true
+  line_number: false
   auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
+  tab_replace: '    '
+  wrap: false
+  hljs: true
 prismjs:
+  enable: false
   preprocess: true
-  line_number: true
-  tab_replace: ''
+  line_number: false
+  tab_replace: '    '
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')

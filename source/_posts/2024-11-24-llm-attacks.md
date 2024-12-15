@@ -314,6 +314,6 @@ cv2.imwrite('flag.png', out_arr)
 
 ![better_flag.png](/assets/ctf/ictf-2024/linear-labyrinth/flag_better.png)
 
-That looks much better.
+That looks much better. ictf{linear_aggression} was the flag.
 
 Yep, I forgot to clamp tensors. And I overcomplicated it, when I could have just trained a model to guess the initial flag. I had the right idea, but the wrong execution. Even though I sort of solved this, I do think that this is the much better execution.
