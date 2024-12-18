@@ -10,9 +10,9 @@ I'm an AI Red Teamer at an AI company in North Carolina.
 
 You'll notice that beyond this, there isn't much else about me on this site. I give this site out to everyone, so I try to make it somewhat non-trivial for bad faith actors to act in bad faith. If you cared enough, you'll find out who I am anyways though. Good luck! 
 
-<h1>Projects, Volunteering, and Communities</h1>
+<h1>Volunteering and Communities</h1>
   <ul class="posts">
-    <li><a href="https://defcon.org/">DEF CON Goon:</a> NFO 2023, XZBT 2024, VEND Lead 2025</li>
+    <li><a href="https://defcon.org/">DEF CON Goon:</a> NFO 2023, XZBT 2024, VEND 2nd Lead 2025</li>
     <li><a href="https://www.firstinspires.org/robotics/frc">FRC:</a> I mentor two teams in my area. Highly Recommend.</li>
     <li><a href="https://hackpack.club/">HackPack:</a> I was an officer for 2 years, and President 2023-2024.</li>
     <li><a href="https://ctftime.org/ctf/443/">HackPackCTF (2021-2025):</a> I've made rev, pwn, web, android, OSINT, and LLM challenges while on this team.</li>
