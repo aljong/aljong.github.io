@@ -38,8 +38,11 @@ password is saren
 
 The program operates by first randomly generating a _128-bit Password Salt_ and a _128-bit AES Initialization Vector_ by reading binary data from **/dev/urandom**. It then uses that _Password Salt_ as a parameter in generating an encryption key, by using **PBKDF2-HMAC-SHA-256** on a user inputted string. A **CRC32** hash of the file to embed is then calculated, and stored in the header to act as a checksum for the validity of the data. It then pads the binary data of the file to embed using the **PKCS #7** algorithm, followed by actually encrypting both the header and the padded data, with **AES-256** in **CBC Mode**, using the previously generated _Initialization Vector_. Now the data is actually encoded inside the image by first picking a random offset, and then going through each bit of data and storing it inside the actual image pixel data, which it accomplishes by setting the _Least-Significant-Bit_ of each channel byte of each pixel.
 ### Ciphertext
+<audio controls>
+  <source src="/assets/cackalacky/2024/animalese4.wav" type="audio/wav">
+  Your browser does not support the audio element.
+</audio>
 
-![Animalese Sound Byte](/assets/cackalacky/2024/animalese4.wav)
 # Step 3
 I repost fekie's red panda with the phrase "These animals belong in siberia"
 
