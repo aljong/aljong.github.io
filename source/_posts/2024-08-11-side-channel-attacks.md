@@ -8,4 +8,4 @@ tags:
 - blogpost
 ---
 
-This is an old writeup that I'm cleaning up and uploading in the next day or two. Please be patient! Should be up in the next day or two. 
+This is an old writeup that I'm cleaning up and uploading in the next day or two. Please be patient! 
