@@ -69,7 +69,7 @@ Point at kiwi.observer
 Text is converted to hylian (legend of zelda) and hint is given
 Hint: `I'm feeling rather dubious about crunching numbers to break this encryption.`
 ### Ciphertext
-![[source/assets/cackalacky/2024/DNS.png]]
+![[/assets/cackalacky/2024/DNS.png]]
 # Step 5
 CTF people tell anyone who says "zuko" to them 
 
@@ -78,4 +78,4 @@ CTF people tell anyone who says "zuko" to them
 First person to DM me and say
 up up down down left right left right b a select start
 or some variant wins
-Trophy:![[Cackalacky/2024/trophy.png]]
+Trophy:![[/assets/cackalacky/2024/trophy.png]]
