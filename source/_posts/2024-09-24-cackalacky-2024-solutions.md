@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CackalackyCon 2024 Crypto Challenge Solutions
+title: CackalackyCon 2024 Crypto(graphy) Challenge Solutions
 date: 2024-09-24 04:04:06 -0400
 tags: 
 - crypto
@@ -31,7 +31,7 @@ Github pages storing an image.
 
 <img src="/assets/cackalacky/2024/villager.png">
 
-Image contains an animalese mp3 file.
+Image contains an animalese mp3 file, which must be extracted following the reverse of the encryption process below. Also was hinted at in step 1 with `Sometimes the most significant is the least significant CRC32 PKCS #7 AES-256-CBC` 
 
 <audio controls>
   <source src="/assets/cackalacky/2024/animalese4.wav" type="audio/wav">
@@ -88,15 +88,18 @@ Point at kiwi.observer
 ### Ciphertext
 ![DNS](/assets/cackalacky/2024/DNS.png)
 
-### Encryption
-Text is converted to hylian (legend of zelda) and hint is given
-Hint: `I'm feeling rather dubious about crunching numbers to break this encryption.`
+Going to secrets.kiwi.observer will rickroll you, but kiwi.observer redirects to a [zelda youtube video](https://www.youtube.com/watch?v=CO7JLY2YQUU&list=PLKb_pMSfR7rWvqfO-5aPqi1-hWmbBuNdv), hinting towards the language being Hylian.
 
 ### Message
 
-`ctf room password is zuko`
 ![Hylian](/assets/cackalacky/2024/hylian.png)
 ![Fuzzy Hylian](/assets/cackalacky/2024/hylian_fuzzy.png)
+
+Which can be translated to `ctf room password is zuko`
+
+### Encryption
+Text is converted to hylian (legend of zelda) and hint is given
+Hint: `I'm feeling rather dubious about crunching numbers to break this encryption.`
 
 # Step 5
 EverSecCTF staff/volunteers tell anyone who says "zuko" to them 
