@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CackalackyCon 2024 Crypto Challenge Solutions
-date: 2024-9-24 04:04:06 -0400
+date: 2024-09-24 04:04:06 -0400
 tags: 
 - crypto
 - osint
