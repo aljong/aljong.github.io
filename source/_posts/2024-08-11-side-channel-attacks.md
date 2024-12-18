@@ -85,27 +85,28 @@ Examples being
 
 ## Hamming Who?
 
-Hamming Weight is measured as ...
-Hamming Distance is measured as ...
+Hamming weights and distance are critical to power analysis. 
 
-FPGAs usually used hamming distance, while microcontrollers usually use hamming weight.
+- Hamming Weight is measured as the number of 1's in a binary value.
+    - For example, 0x1101 has a hamming weight of 3.
+- Hamming Distance is measured as the difference between previous and current hamming weight.
+    - For example, the hamming distance between 0x1101 and 0x1001 is 1.
+
+Microcontrollers often exhibit power consumption proportional to Hamming Weight, while FPGAs often follow the Hamming Distance model.
 
 ## DPA 
 
-1. Apply an input
-2. Measure Power
-3. Choose intermediate computation
+1. Apply an input to the target device.
+2. Measure its power consumption during cryptographic operations.
+3. Hypothesize intermediate values (e.g., partial results of encryption).
+4. Group power traces based on key hypotheses.
+5. Compute statistical metrics (e.g., Difference of Means, correlation tests) to identify the correct key.
 
-For each key guess:
+We can use different metrics in DPA attacks.
 
-- power traces are **grouped** for the same hypothesis.
-- a statistic is derived (median, mean) to compare the groups 
-
-Grouping done with only the correct key guess should reveal **significant** statistical difference.
-
-We have metrics such as Difference of Means (DoM), T-test, Variance test (V-test).
-
-Correlations Test!
+- Difference of Means (DoM): Measures the difference between group averages.
+- T-Test: Determines statistical significance of differences.
+- Correlation Tests: Identify relationships between power consumption and hypothesized data.
 
 # Hands-On Attack
 
@@ -163,4 +164,8 @@ Compared to a traditional brute-force attack of AES (which takes 2^128 attempts 
 
 We can make this harder by doing several things.
 
--  precharging the bits when we perform the XOR, such as in a microprocessor
+- Precharging the bits when we perform the XOR, such as in a microprocessor
+    - This equalizes power consumption
+- Injecting random noise to mask power traces
+- Obfuscate data and operations by adding unpredictable methodologies to perform operations
+- Other hardware countermeasures exist, we'll talk about them in later blogposts! 
