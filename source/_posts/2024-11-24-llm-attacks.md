@@ -23,6 +23,9 @@ The 2024 iCTF is sponsored by the [ACTION NSF AI Institute](https://action.ucsb.
 One of these challenges was called `linear-labyrinth`. 
 
 # linear-labyrinth
+
+Un-neurals your network :3 
+
 ## Made by 0xk4l1
 
 The creator, 0xk4l1, is a friend of mine. We have worked together before, so I was excited about trying her challenge! 
